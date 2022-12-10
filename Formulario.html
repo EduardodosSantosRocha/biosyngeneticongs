@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="shortcut icon" href="./assents/dino.ico" type="image/x-icon">
+</head>
+
+
+
+<body class="containerimg">
+    <header>
+        <div id="logo">
+
+            <a href="Home.html">
+                <img src="img/Biosyn.png" alt="Logo">
+            </a>
+
+        </div>
+
+        <div class="center">
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="Sobrenos.html"> Atividades da organização</a>
+                <a href="Formulario.html" id="Formulario1">Formulario</a>
+                <a href="local.html">Localizacao</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <div>
+        <h1 class="header-space">Formulario</h1>
+    </div>
+    <div class="container-form">
+        <div>
+            <form action="http://www.jurassicworldfilme.com.br/" method="post" name="Formulario" id="Formulario">
+                <div class="inputs">
+                    <div class="input-box">
+                        <label for="Nome">Digite seu nome:ㅤㅤㅤ</label>
+                        <input type="text" id="Nome" name="Nome" placeholder="NOME">
+                        <span></span>
+                    </div>
+                    <div class="input-box">
+                        <label for="CPF">Digite seu CPF: ㅤㅤㅤ</label>
+                        <input type="text" id="CPF" name="CPF" placeholder="CPF">
+                        <span></span>
+                    </div>
+                    <div class="input-box">
+                        <label for="Email">Digite seu Email:ㅤㅤㅤ</label>
+                        <input type="email" id="Email" name="Email" placeholder="Email" required>
+                        <span></span>
+                    </div>
+                    <div class="input-box">
+                        <label for="Telefone">Digite seu Telefone:ㅤㅤ</label>
+                        <input type="tel" id="Telefone" name="Telefone" placeholder="Telefone">
+                        <span></span>
+                    </div>
+                    <div class="input-box">
+                        <label for="Apelido">Digite seu Apelido:ㅤㅤ</label>
+                        <input type="text" id="Apelido" name="Telefone" placeholder="Apelido">
+                        <span></span>
+                    </div>
+                    <fieldset>
+                        <legend>Escolha</legend>
+                        
+                        <div class="tipodepessoa">
+
+                            <div class="tipo-input">
+                                <input type="radio" id="Funcionario" name="tips" value="Funcionario">
+                                <label for="Funcionario">Funcionario</label>
+                            </div>
+
+                            <div class="tipo-input">
+                                <input type="radio" id="Visitante" name="tips" value="Visitante">
+                                <label for="Visitante">Visitante</label>
+                            </div>
+
+                            <div class="tipo-input">
+                                <input type="radio" id="Outro" name="tips" value="Outro">
+                                <label for="Outro">Outro</label>
+                            </div>
+                            
+                            <span id="radio"></span>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Escolha</legend>
+                        <div>
+                            <input type="checkbox" id="Duvida" name="tips-check-A" value="Duvida">
+                            <label for="Duvida">Duvida</label>
+                        </div>
+
+
+                        <div>
+                            <input type="checkbox" id="Ajuda" name="tips-check-A" value="Ajuda">
+                            <label for="Ajuda">Ajuda</label>
+                        </div>
+
+                        <span id="checkboxtext"></span>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <div><label style="color: white;">Deixe seu comentario sobre escolha</label> </div>
+                    <textarea name="txtcomentario" id="caixatexto" cols="30" rows="10" maxlength="2000"></textarea>
+                </div>
+                <div>
+                    <button id="validar">Validar</button>
+                    <button id="editar" type="button">Editar</button>   
+                    <input type="submit" class="enviar" name="enviar" id="enviar">
+                    <input type="reset" class="reset" name="reset" id="reset">          
+                </div>
+
+
+            </form>
+        </div>
+
+    </div>
+
+
+    <div id="infos">
+    </div>
+
+    
+
+
+    <footer>
+        <div class="footer-content">
+
+
+            <h2 class="color-gr">Sobre nós</h2>
+
+            <div class="p-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <ul class="social">
+                <li><a href="https://www.instagram.com/jurassicworld/"><img src="./img/twitter.png"
+                            alt="Instagram" class="Size-img-footer"></a></li>
+                <li><a href="https://www.facebook.com/JurassicWorldFilme/?brand_redir=170889472955944"><img
+                            src="./img/facebook (1).png" alt="Facebook" class="Size-img-footer"></a></li>
+                <li><a href="https://twitter.com/JurassicWorld"><img src="./img/instagram.png" alt="Twiter"
+                            class="Size-img-footer"></a></li>
+                <li><a href="https://www.youtube.com/JurassicWorld"><img src="./img/youtube.png" alt="Youtube"
+                            class="Size-img-footer"></a></li>
+            </ul>
+
+            <div class="SAC">
+                <h3>Email-Sac: BiosynGene@gmail.com</h3>
+                <h3>Numero: 3842-3567</h3>
+            </div>
+            <p class="size">copyright &copy;2022 eduardinhodorolima. designed by <span>Fanho</span></p>
+        </div>
+
+
+    </footer>
+
+
+    <script src="./Js/Formulario.js"></script>
+
+</body>
+
+</html>
